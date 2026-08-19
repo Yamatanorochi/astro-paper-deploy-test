@@ -21,7 +21,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: "https://Yamatanorochi.github.io",
-  base: "/astro-paper-deploy-test"
+  base: "/astro-paper-deploy-test",
   integrations: [
     mdx(),
     sitemap({
