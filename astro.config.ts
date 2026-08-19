@@ -20,7 +20,8 @@ import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
 export default defineConfig({
-  site: config.site.url,
+  site: "https://Yamatanorochi.github.io",
+  base: "/astro-paper-deploy-test"
   integrations: [
     mdx(),
     sitemap({
